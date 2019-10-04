@@ -48,7 +48,19 @@ p {
   padding:1em 0;
   
 }
+i{
+  color:#333;
+}
+a{
+  color:#333;
+  text-decoration: none;
+}
 
+.card-links{
+  display:flex;
+  flex-direction: column;
+  
+}
 .btn{
   display:inline-block;
   background:#f7f7f7;
@@ -58,6 +70,14 @@ p {
   color:#666;
   margin: .5rem 0;
 
+}
+
+.btn-small{
+  display:inline-block;
+  border:1px solid #666;
+  margin: .5rem 0;
+  
+  
 }
 
 .btn:hover{
@@ -129,6 +149,7 @@ p {
 
 .card-content{
   padding: 1.5em;
+  position: relative;
 }
 
 /* Section 3 */
@@ -147,6 +168,23 @@ p {
 
 #section-4 .box:first-child{
   background:#2690d4;
+}
+
+.boxes{
+  display:flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+  align-items:center;
+
+}
+
+.boxes-div{
+  
+  border:2px #333 solid;
+  padding: 1rem 2rem;
+  margin-bottom:3rem;
+  
 }
 
 /* footer */
