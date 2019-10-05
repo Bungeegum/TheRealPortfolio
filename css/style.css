@@ -18,8 +18,7 @@ html{
 .icon-containers{
   display:flex;
   align-items: center;
-  margin-left:5rem;
-  margin-right:auto;
+  justify-content: center;
   
 }
 
