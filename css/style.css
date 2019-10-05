@@ -10,9 +10,6 @@ body{
   text-align:center;
 
 }
-html {
-  scroll-behavior: smooth;
-}
 
 .icon-containers{
   display:flex;
@@ -136,7 +133,7 @@ a{
 
 #section-2{
   padding: 2em 1em 1em;
-
+  background:#202020;
 }
 
 #section-2 ul{
