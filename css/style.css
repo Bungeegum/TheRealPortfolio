@@ -10,6 +10,9 @@ body{
   text-align:center;
 
 }
+html{
+  scroll-behavior: smooth;
+}
 
 html{
   scroll-behavior: smooth;
@@ -137,7 +140,11 @@ a{
 
 #section-2{
   padding: 2em 1em 1em;
+<<<<<<< HEAD
   background: #BEBEBE;
+=======
+  background:rgb(92, 86, 86);
+>>>>>>> 798f1926d41b95bd6edc3b7d055acc0e142c06ff
 }
 
 #section-2 ul{
