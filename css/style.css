@@ -10,6 +10,9 @@ body{
   text-align:center;
 
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .icon-containers{
   display:flex;
