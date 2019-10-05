@@ -33,8 +33,10 @@ body{
 }
 img{
   display:block;
-  width:100%;
+  width:80%;
+  padding:1rem 4rem 0;
   height:auto;
+ 
 
 }
 
@@ -207,6 +209,14 @@ a{
     display:grid;
     grid-template-columns: 1fr repeat(2,minmax(auto,25em)) 1fr;
 
+  }
+
+  img{
+   
+    padding:1rem 2rem 0;
+
+   
+  
   }
  
 
