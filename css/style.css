@@ -67,6 +67,9 @@ a{
 .card-links{
   display:flex;
   flex-direction: column;
+  width:10rem;
+  margin-left:auto;
+  margin-right:auto;
   
 }
 .btn{
@@ -140,12 +143,15 @@ a{
 
 #section-2{
   padding: 2em 1em 1em;
-<<<<<<< HEAD
+
   background: #BEBEBE;
-=======
-  background:rgb(92, 86, 86);
->>>>>>> 798f1926d41b95bd6edc3b7d055acc0e142c06ff
+ 
+  background:#34495e;
+
 }
+
+
+
 
 #section-2 ul{
   list-style:none;
@@ -154,8 +160,11 @@ a{
 
 }
 
+
 #section-2 li{
-  margin-bottom:1em;
+  margin-bottom:1rem;
+  margin-top:1rem;
+
   background:#f7f7f7;
   color:#333;
 }
@@ -217,15 +226,17 @@ a{
 /* media Query */
 @media(min-width:700px){
   .grid{
+    
     display:grid;
-    grid-template-columns: 1fr repeat(2,minmax(auto,25em)) 1fr;
+    grid-template-columns: 1fr 500px 500px 1fr;
 
   }
 
   img{
-   
+    flex:1;
     padding:1rem 2rem 0;
-
+    width:25rem;
+    height:23rem;
   }
 
   .title-font{
@@ -248,12 +259,27 @@ a{
     grid-column:2/4;
   }
 
+.portfolio-item{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  background:#dfe4ea;
+  margin-bottom:2rem;
+  color:#2f3542;
+  border-radius: 30px;
+}
+
+.portfolio-description{
+  flex:1;
+}
+
   .box, #main-footer div{
     grid-column:span 2;
   }
 
   #section-2 ul{
     display:flex;
+    
     justify-content: space-around;
   }
   
